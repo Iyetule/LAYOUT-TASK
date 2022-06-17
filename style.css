@@ -1,0 +1,76 @@
+@import url(https://fonts.google.com/specimen/lexend+Deaca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(245, 245, 245);
+  font-size: 15px;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+}
+main {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+.parent {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+}
+h2 {
+  color: rgb(245, 245, 245);
+  padding-bottom: 30px;
+  padding-top: 20px;
+  font-size: bold;
+  font-weight: 700;
+  font-family: "Big Shoulders display";
+}
+p {
+  color: rgb(245, 245, 245);
+  font-weight: 400;
+  font-family: "lexend-deca";
+  width: 150px;
+  margin: bottom 2px;
+}
+.first-container {
+  background-color:rgb(218, 70, 17);
+  padding: 2em;
+}
+.second-container {
+  background-color: rgb(2, 2, 17);
+  padding: 2em;
+}
+.third-container {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+}
+.btn {
+  background-color: rgb(245, 245, 245);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.9rem 1.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid transparent;
+}
+@media screen and (max-width: 1440px){
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and(max-width: 375px) {
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
